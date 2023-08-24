@@ -3,6 +3,35 @@ body{
     margin: 0;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 60px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+a{
+    font-family: "Oleo Script",sans-serif;
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+header ul{
+    display: flex;
+    font-size: 25px;
+}
+
+header li{
+    margin-left: 20px;
+}
+
 #page-logo a{
     padding: 10px;
     font-family: "Oleo Script",sans-serif;
